@@ -1,0 +1,46 @@
+Sharp staccato keystrokes bounce off the rough brick walls, a cacophony interrupted only by the occasional pause and sigh, a voiceless expression that carries more meaning than any words.  A curmudgeonly hiss and moan erupt from the beat-up radiator, waging battle against the endless drafts from the brisk autumn night.  The room is cramped.  A twin bed shoved in one corner, with enough room at the foot for a desk underneath a window.  Silhouetted against the lurid glow of streetlights and a computer monitor in a Regan-era office chair, sits our protagonist, Max.
+
+It's another long night in what seems like an endless string of long nights.  Another after-action report for another client nailed by another cyberattack.  Ransomware, corporate espionage, phishing, the jobs all run together.  The corporations, names, and faces blur into an immutable palette of anxiety. 
+
+Not Max’s, of course.  it’s the nameless parade of CXO’s falling over their words, soaked with flop sweat, caught completely flat footed when the hammer falls.  I’d bet the farm that there’s an unread email buried somewhere in that inbox full of buzzwords from your likely-underpaid systems staff, asking for downtime to apply patches or funding for a new IPS.  But hey -- if it ain’t broke, right?  Max chuckles, rubs an aching hand through short black hair. 
+
+“Oh, now you get it, but it’s too late.”
+
+A quick “send” on the e-mail drops the latest-and-final report to the recently unencrypted inboxes of Max’s most recent client.  They had no choice but to cough up the bitcoin for the decryption key.  Their IPS was so horribly out of date, it took Max less than 10 minutes to find half a dozen critical CVE’s that applied to their platform.
+
+An angry rumble from Max’s stomach brought thoughts of dinner to the forefront.  Or would it be breakfast?  Luckily the noodle shop below the 2nd floor walk-up that Max calls “home and office” was open 24/7 to cater to the city’s ever-grumbling gut.
+
+                A quick check for the holy trinity – keys, cell, and bag – and Max is out the door, pulling on a faded jean jacket during the descent.  A brief blast of cool autumn air in the alley, and then a hot blast of spice, hot oil, and Cantonese laden with English profanity, as Max slips in through the kitchen.  The cooks both pause their argument to acknowledge Max, and then re-launch headlong into whatever argument they were in the middle of.
+
+                The woman behind the counter smiles at Max as they slip onto a stool at the counter.  She’s cradling an ancient handset between shoulder and ear, deftly taking down an order in shorthand on a green and white order pad.  It must be closer to breakfast if Jane is working, unless someone is sick, she usually works overnight.  Looking around, Max is the only person in the shop between the half-dozen stools at the counter and the three booths.  The menu board looms above, flickering and faded.
+
+                She hangs up the phone and wedges the ticket on the holder.  “Usual?” she asks.
+
+                With a smile and nod from Max, and she makes a quick scrawl on another ticket and sticks it in front of the other queued orders and slides a tablet over to Max.  A quick tap of the mobile phone, packets whir across the net, and payment is rendered.  It’s an amazing world we live in, isn’t it?
+
+                “Oh, something came for you,” she says, reaching under the counter.
+
+                “For me?  Here?” Max questions as Jane sets a padded envelope on the counter.
+
+                “Came about half an hour ago,” she says with a shrug. “Guy looked like one of those delivery contractors, didn’t have a hat or badge or anything.  Figured it was just a mistake.  Was going to run it up at the end of my shift, but you saved me the trip.”
+
+                Max turns the envelope over.   Just a name and address.  No tell-tale 2d barcodes or tracking numbers from any of the standard courier services.  Very strange.  Max uses a mailbox service to digitize all the paper mail, and a box at a shipping company a couple blocks down for packages.  There’s never been a piece of mail, aside from wads of advertising circulars and handbills, delivered to the apartment -- ever.  Curiosity piqued, they grab a chopstick to open the flap, and tip the envelope over.
+
+                A printed circuit board clatters onto the countertop, stopping against the soy sauce and jar of chili paste.  With a harder shake, a business card flutters out and onto the ground.  Picking it up the card, Max focuses on the PCB. <need some details of the badge here to match what the actual badge is>.  It looks like a custom job -- there aren’t any ICs or other components on the board.  Just some through holes and solder pads.
+
+------------------
+
+Kind of got to the point here where you could start to diverge into some of the villages or other events.  I assume that we need to make sure that the "puzzles" can be completed in any order, right?  
+
+Was thinking maybe the business card could have a QR code to a site that could act as a "hub" for the puzzles somehow.  Then maybe that site could be incorporated into the actual event?  How forward are you thinking this narrative will be?  LIke, will the narrative/clues/puzzles be right out in the open?  Or will it be a bit more hidden in the classes/villages, so that people not "playing" won't really notice it, and people who ARE playing will have to dig around a bit?  
+
+Also played with the idea of the QR code "activating" an automated exploit (un-published, of course) in Max's router that dnat's all traffic from their home network to the "hub" site and that's how the page is brought in.  If you wanted the puzzles to be a bit more hidden, you could hide info in page source, or something like that, or even if there's an ethical hacking village, incorporate it as a honeypot that people could actually exploit with info from the village?
+
+Thought it would be cool if there was a real world SSID in like the auditorium that actually dnat'd web traffic, and the QR code could be a passphrase.    
+
+A lot of the Noir type stuff is the "damsel in distress," so thought this could somehow be a call for help from someone in trouble possibly.  
+
+Tried to keep language gender neutral, since "Max" would be the attendee, we would want to consider any gender.
+
+I don't know man, if this is totally off base or not what you wanted, or if I'm thinking of something that's way more involved than you wanted, let me know.  Just thought I'd give you a brain dump of some of the stuff I've written/notes/things I've thought about.
+
