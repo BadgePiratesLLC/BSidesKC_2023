@@ -56,10 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_over_copper|151690000|146105062|19f858e9-e572-4e64-a828-8e1df8f16f38|83195b42-2a66-4d3e-ab4f-dbe3b9e24a30",
-        "silk_over_copper|152990000|146103320|19f858e9-e572-4e64-a828-8e1df8f16f38|f7976442-c143-439d-a405-e5bc2b45b668"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -412,7 +409,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "OzSec23.kicad_pro",
+    "filename": "BSidesKC23.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -468,7 +465,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "C:/Users/Kevin/OneDrive - Tier 3 Tech/Badges/OzSec/ReferenceDocs/BadgePiratesDrawingSheet_pcb.kicad_wks"
+    "page_layout_descr_file": "C:/Users/Administrator/OneDrive - Tier 3 Tech/Badges/BSidesKC23/ReferenceDocs/BadgePiratesDrawingSheet_pcb.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
