@@ -826,7 +826,7 @@
   (symbol (lib_id "power:VBUS") (at 91.44 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 199e5dc7-7a4e-4686-9f07-c65eda90ff36)
-    (property "Reference" "#PWR042" (at 91.44 67.31 0)
+    (property "Reference" "#PWR043" (at 91.44 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 91.821 59.1058 0)
@@ -842,7 +842,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -851,7 +851,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 265.43 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a97b846-0292-414f-96b7-4223a0dd029e)
-    (property "Reference" "R14" (at 267.1572 80.1116 0)
+    (property "Reference" "R9" (at 267.1572 80.1116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 267.1572 82.423 0)
@@ -868,7 +868,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "R14") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -877,7 +877,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 67.31 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f3664ca-f09a-469e-9380-a0196c965412)
-    (property "Reference" "R7" (at 69.0372 116.9416 0)
+    (property "Reference" "R12" (at 69.0372 116.9416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 69.0372 119.253 0)
@@ -894,7 +894,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "R7") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -903,7 +903,7 @@
   (symbol (lib_id "BadgePiratesSymbolLibrary:PESD2USB3UV-TR") (at 227.33 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4af38c64-f1b9-4a45-a786-8a4b956a7f4f)
-    (property "Reference" "D10" (at 232.537 98.2253 0)
+    (property "Reference" "D12" (at 232.537 98.2253 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PESD2USB3UV-TR" (at 232.537 100.7622 0)
@@ -921,7 +921,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "D10") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -930,7 +930,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 257.81 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d624a65-37fd-4ac2-b03d-cc40cbdb56a8)
-    (property "Reference" "R13" (at 259.5372 83.9216 0)
+    (property "Reference" "R11" (at 259.5372 83.9216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 259.5372 86.233 0)
@@ -947,7 +947,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "R13") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -956,7 +956,7 @@
   (symbol (lib_id "power:VBUS") (at 196.85 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 581e46da-ec6f-4642-b871-a13a6c64454a)
-    (property "Reference" "#PWR046" (at 196.85 67.31 0)
+    (property "Reference" "#PWR044" (at 196.85 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 197.231 59.1058 0)
@@ -972,7 +972,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -981,7 +981,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 196.85 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 583bed6b-b08d-48a8-943d-cafa338e2382)
-    (property "Reference" "R12" (at 198.5772 67.4116 0)
+    (property "Reference" "R7" (at 198.5772 67.4116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0" (at 198.5772 69.723 0)
@@ -998,7 +998,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "R12") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1007,7 +1007,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 134.62 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ef7c577-ffc3-4d73-ab75-baed9081efe8)
-    (property "Reference" "R9" (at 136.3472 83.9216 0)
+    (property "Reference" "R10" (at 136.3472 83.9216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 136.3472 86.233 0)
@@ -1024,7 +1024,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1033,7 +1033,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 172.72 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 805be641-4dc8-4a5d-be87-b685c12e171c)
-    (property "Reference" "R11" (at 174.4472 116.9416 0)
+    (property "Reference" "R13" (at 174.4472 116.9416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 174.4472 119.253 0)
@@ -1050,7 +1050,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "R11") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1059,7 +1059,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 142.24 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95f52898-abcd-46b4-9959-cc66f4d11639)
-    (property "Reference" "R10" (at 143.9672 80.1116 0)
+    (property "Reference" "R8" (at 143.9672 80.1116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 143.9672 82.423 0)
@@ -1076,7 +1076,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "R10") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1085,7 +1085,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 91.44 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a0199c5-6594-4bff-9ea4-99d3b1f83622)
-    (property "Reference" "R8" (at 93.1672 67.4116 0)
+    (property "Reference" "R6" (at 93.1672 67.4116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0" (at 93.1672 69.723 0)
@@ -1102,7 +1102,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "R8") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1137,7 +1137,7 @@
   (symbol (lib_id "power:GND") (at 74.93 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ef9ac7e-7a9a-48b1-9f3a-6a6c8c3f5f96)
-    (property "Reference" "#PWR041" (at 74.93 130.81 0)
+    (property "Reference" "#PWR050" (at 74.93 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 75.057 128.8542 0)
@@ -1153,7 +1153,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -1162,7 +1162,7 @@
   (symbol (lib_id "power:GND") (at 142.24 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b16f97c5-6055-4ee5-b66a-b1c8abdcc41e)
-    (property "Reference" "#PWR044" (at 142.24 91.44 0)
+    (property "Reference" "#PWR045" (at 142.24 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.367 89.4842 0)
@@ -1178,7 +1178,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -1187,7 +1187,7 @@
   (symbol (lib_id "power:GND") (at 227.33 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c115b49d-b651-4634-a14d-7cd5233b7b49)
-    (property "Reference" "#PWR047" (at 227.33 113.03 0)
+    (property "Reference" "#PWR049" (at 227.33 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 227.33 111.1234 0)
@@ -1203,7 +1203,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -1212,7 +1212,7 @@
   (symbol (lib_id "BadgePiratesSymbolLibrary:PESD2USB3UV-TR") (at 116.84 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5b0b66e-db3e-410b-b496-7407930c4227)
-    (property "Reference" "D9" (at 122.047 98.2253 0)
+    (property "Reference" "D11" (at 122.047 98.2253 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PESD2USB3UV-TR" (at 122.047 100.7622 0)
@@ -1230,7 +1230,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "D9") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -1239,7 +1239,7 @@
   (symbol (lib_id "BadgePiratesSymbolLibrary:USB_C_Plug_USB2.0") (at 180.34 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid caa8a662-14b9-4faf-81ef-54adabc216d3)
-    (property "Reference" "J9" (at 180.34 67.4202 0)
+    (property "Reference" "J7" (at 180.34 67.4202 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Plug_USB2.0" (at 180.34 69.9571 0)
@@ -1271,7 +1271,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "J9") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -1280,7 +1280,7 @@
   (symbol (lib_id "BadgePiratesSymbolLibrary:USB_C_Plug_USB2.0") (at 74.93 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce2f450a-7a72-49b2-817c-01481ac363f2)
-    (property "Reference" "J8" (at 74.93 67.4202 0)
+    (property "Reference" "J6" (at 74.93 67.4202 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Plug_USB2.0" (at 74.93 69.9571 0)
@@ -1312,7 +1312,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "J8") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -1346,7 +1346,7 @@
   (symbol (lib_id "power:GND") (at 180.34 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d493d9d0-0cc8-44aa-8c14-6b2a5a3f0587)
-    (property "Reference" "#PWR045" (at 180.34 130.81 0)
+    (property "Reference" "#PWR051" (at 180.34 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.467 128.8542 0)
@@ -1362,7 +1362,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -1397,7 +1397,7 @@
   (symbol (lib_id "power:GND") (at 134.62 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd4dddfa-5158-4451-8efe-6dc0181462ac)
-    (property "Reference" "#PWR043" (at 134.62 95.25 0)
+    (property "Reference" "#PWR047" (at 134.62 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.747 93.2942 0)
@@ -1413,7 +1413,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -1422,7 +1422,7 @@
   (symbol (lib_id "power:GND") (at 265.43 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7d3f6a0-2d86-4380-a19d-7c1e14036620)
-    (property "Reference" "#PWR049" (at 265.43 91.44 0)
+    (property "Reference" "#PWR046" (at 265.43 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 265.557 89.4842 0)
@@ -1438,7 +1438,7 @@
     (instances
       (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac/f4d203db-b80e-4dd6-b7dc-115cccaea233"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )

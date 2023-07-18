@@ -2983,7 +2983,7 @@
   (symbol (lib_id "power:GND") (at 95.25 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061497851)
-    (property "Reference" "#PWR019" (at 95.25 191.77 0)
+    (property "Reference" "#PWR039" (at 95.25 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.377 189.8142 0)
@@ -2997,9 +2997,9 @@
     )
     (pin "1" (uuid 356a0948-8c4b-4345-9a5e-ed6db843a675))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -3008,7 +3008,7 @@
   (symbol (lib_id "Device:LED") (at 41.91 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006149a82d)
-    (property "Reference" "D2" (at 42.0878 59.563 0)
+    (property "Reference" "D1" (at 42.0878 59.563 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Pwr" (at 42.0878 61.8744 0)
@@ -3023,9 +3023,9 @@
     (pin "1" (uuid 5d20a811-3bef-482d-837a-8742b9a0b626))
     (pin "2" (uuid c5ffbdde-74e4-4a4f-9736-9f81e1b3e4a4))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -3034,7 +3034,7 @@
   (symbol (lib_id "Device:LED") (at 95.25 176.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000614a1ee0)
-    (property "Reference" "D3" (at 89.7382 176.7078 0)
+    (property "Reference" "D7" (at 89.7382 176.7078 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 92.0496 176.7078 0)
@@ -3049,9 +3049,9 @@
     (pin "1" (uuid aa6ef614-ddf3-4857-a4a7-d7c71a884ad4))
     (pin "2" (uuid 94946042-f0b8-4470-88fa-ae160104fc2e))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "D3") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -3060,7 +3060,7 @@
   (symbol (lib_id "Device:LED_RABG") (at 107.95 173.99 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000614a2d93)
-    (property "Reference" "D4" (at 116.84 173.99 0)
+    (property "Reference" "D10" (at 116.84 173.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 99.06 173.99 0)
@@ -3077,9 +3077,9 @@
     (pin "3" (uuid 5ecb05b6-957b-495a-ab51-8ff78932e0c9))
     (pin "4" (uuid bca94448-d225-4a11-a0e7-54efeec7e343))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "D4") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -3088,7 +3088,7 @@
   (symbol (lib_id "power:GND") (at 190.5 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000614a3d64)
-    (property "Reference" "#PWR025" (at 196.85 92.71 0)
+    (property "Reference" "#PWR015" (at 196.85 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.8942 92.583 0)
@@ -3102,9 +3102,9 @@
     )
     (pin "1" (uuid dc8accd7-4bb7-4791-b134-36cfe2bf68fc))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3113,7 +3113,7 @@
   (symbol (lib_id "Device:C_Small") (at 86.36 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000614a62be)
-    (property "Reference" "C3" (at 85.1916 110.6932 0)
+    (property "Reference" "C6" (at 85.1916 110.6932 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 87.503 110.6932 0)
@@ -3128,9 +3128,9 @@
     (pin "1" (uuid c3803199-b1f9-4e23-8d35-f31e21dae0b1))
     (pin "2" (uuid 1b81b872-39d4-4b14-b01c-91713b9598f1))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "C3") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3139,7 +3139,7 @@
   (symbol (lib_id "Device:C_Small") (at 86.36 128.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000614a6cda)
-    (property "Reference" "C4" (at 85.1916 125.9332 0)
+    (property "Reference" "C7" (at 85.1916 125.9332 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 87.503 125.9332 0)
@@ -3154,9 +3154,9 @@
     (pin "1" (uuid 4bc650ff-4624-4c3e-8ed0-940f799d0881))
     (pin "2" (uuid f071d116-0730-46d0-8914-d9504643a722))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "C4") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3165,7 +3165,7 @@
   (symbol (lib_id "power:VCC") (at 33.02 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000614b53fa)
-    (property "Reference" "#PWR06" (at 36.83 66.04 0)
+    (property "Reference" "#PWR07" (at 36.83 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 28.6258 65.659 0)
@@ -3179,9 +3179,9 @@
     )
     (pin "1" (uuid 96a5d26d-8ef8-4ebf-bb25-116a2e327144))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3190,7 +3190,7 @@
   (symbol (lib_id "power:VCC") (at 78.74 128.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000614b8b89)
-    (property "Reference" "#PWR016" (at 82.55 128.27 0)
+    (property "Reference" "#PWR024" (at 82.55 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 74.3458 127.889 0)
@@ -3204,9 +3204,9 @@
     )
     (pin "1" (uuid 918b4a62-3be8-4148-9eef-6e6a0d221695))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3215,7 +3215,7 @@
   (symbol (lib_id "power:GND") (at 88.9 128.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000614d67b1)
-    (property "Reference" "#PWR018" (at 95.25 128.27 0)
+    (property "Reference" "#PWR025" (at 95.25 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.2942 128.143 0)
@@ -3229,9 +3229,9 @@
     )
     (pin "1" (uuid e3398458-087d-42fd-bd13-4f28fc2f146a))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -3240,7 +3240,7 @@
   (symbol (lib_id "power:GND") (at 88.9 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000614d7423)
-    (property "Reference" "#PWR017" (at 95.25 113.03 0)
+    (property "Reference" "#PWR019" (at 95.25 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.2942 112.903 0)
@@ -3254,9 +3254,9 @@
     )
     (pin "1" (uuid c768fc9c-4693-4ce2-a125-721f959abbf0))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3265,7 +3265,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Female") (at 30.48 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-0000614dfd7a)
-    (property "Reference" "J3" (at 31.75 158.7499 0)
+    (property "Reference" "J2" (at 31.75 158.7499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "JTAG" (at 31.75 161.2899 0)
@@ -3282,9 +3282,9 @@
     (pin "3" (uuid cab05ebb-0e11-48dc-be15-847dff7ce3f1))
     (pin "4" (uuid ac4b9e81-d073-4185-b871-9b84cc0729d6))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3293,7 +3293,7 @@
   (symbol (lib_id "power:GND") (at 45.72 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000614fff6e)
-    (property "Reference" "#PWR010" (at 52.07 66.04 0)
+    (property "Reference" "#PWR08" (at 52.07 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.9712 65.913 90)
@@ -3307,9 +3307,9 @@
     )
     (pin "1" (uuid 1de744e6-1756-4ce7-97f6-64b89edf112c))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3318,7 +3318,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 38.1 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061502717)
-    (property "Reference" "R4" (at 39.8272 38.2016 0)
+    (property "Reference" "R1" (at 39.8272 38.2016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 39.8272 40.513 0)
@@ -3333,9 +3333,9 @@
     (pin "1" (uuid 979dfdfb-09df-4ef8-8877-b45054bb4d76))
     (pin "2" (uuid eceaaa9a-bbbe-4f20-b1cf-e25b34c18103))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "R4") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3344,7 +3344,7 @@
   (symbol (lib_id "power:VCC") (at 38.1 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615039ac)
-    (property "Reference" "#PWR07" (at 38.1 40.64 0)
+    (property "Reference" "#PWR02" (at 38.1 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 38.481 32.4358 0)
@@ -3358,9 +3358,9 @@
     )
     (pin "1" (uuid 6a72fc66-8cbf-45a7-9b26-ee1c3c839c5a))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3369,7 +3369,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 35.56 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061525792)
-    (property "Reference" "R1" (at 34.3916 64.3128 0)
+    (property "Reference" "R2" (at 34.3916 64.3128 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 36.703 64.3128 0)
@@ -3384,9 +3384,9 @@
     (pin "1" (uuid bd731311-09c5-4a4c-a907-655b805e8f3e))
     (pin "2" (uuid c6d49213-b649-47f2-aaed-35c46164f70a))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -3395,7 +3395,7 @@
   (symbol (lib_id "Interface_USB:CH330N") (at 238.76 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615912ef)
-    (property "Reference" "U3" (at 231.14 71.12 0)
+    (property "Reference" "U1" (at 231.14 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CH340N" (at 231.14 68.58 0)
@@ -3416,9 +3416,9 @@
     (pin "7" (uuid 3458d64d-f048-49ca-94f1-9ab84318b88e))
     (pin "8" (uuid 1504508a-7056-4e30-89c0-d1874b79b88e))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3427,7 +3427,7 @@
   (symbol (lib_id "Regulator_Linear:TLV1117-33") (at 238.76 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061591fd7)
-    (property "Reference" "U4" (at 238.76 78.9432 0)
+    (property "Reference" "U3" (at 238.76 78.9432 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLV1117-33" (at 238.76 81.2546 0)
@@ -3444,9 +3444,9 @@
     (pin "3" (uuid 5ee76bc5-ecfe-47ac-85cb-32f14ab273da))
     (pin "4" (uuid c95326de-17fb-45df-8a56-d6115ecf5929))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -3455,7 +3455,7 @@
   (symbol (lib_id "power:GND") (at 238.76 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615a26bf)
-    (property "Reference" "#PWR034" (at 238.76 76.2 0)
+    (property "Reference" "#PWR09" (at 238.76 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.887 74.2442 0)
@@ -3469,9 +3469,9 @@
     )
     (pin "1" (uuid d43b4e3f-930d-4cca-9e80-690431f9de68))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3480,7 +3480,7 @@
   (symbol (lib_id "power:GND") (at 238.76 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615a651c)
-    (property "Reference" "#PWR035" (at 238.76 99.06 0)
+    (property "Reference" "#PWR016" (at 238.76 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.887 97.1042 0)
@@ -3494,9 +3494,9 @@
     )
     (pin "1" (uuid 69a767ff-af7a-492a-9e6f-e70ea76f8960))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -3505,7 +3505,7 @@
   (symbol (lib_id "Device:C_Small") (at 215.9 57.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615a82c0)
-    (property "Reference" "C5" (at 215.9 50.7492 90)
+    (property "Reference" "C2" (at 215.9 50.7492 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 215.9 53.0606 90)
@@ -3520,9 +3520,9 @@
     (pin "1" (uuid 641f2bf0-c0fc-4cdf-89bb-8da7ba408497))
     (pin "2" (uuid 5a780693-61fc-4761-9222-04a74a231d69))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3531,7 +3531,7 @@
   (symbol (lib_id "power:GND") (at 213.36 57.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615a9311)
-    (property "Reference" "#PWR026" (at 207.01 57.15 0)
+    (property "Reference" "#PWR06" (at 207.01 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.1088 57.277 90)
@@ -3545,9 +3545,9 @@
     )
     (pin "1" (uuid df0dcc82-05dc-4748-aade-2a13dbde1e02))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3556,7 +3556,7 @@
   (symbol (lib_id "power:VCC") (at 248.92 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615af2c2)
-    (property "Reference" "#PWR039" (at 245.11 85.09 0)
+    (property "Reference" "#PWR012" (at 245.11 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 252.1712 85.471 90)
@@ -3570,9 +3570,9 @@
     )
     (pin "1" (uuid c7020abd-5f72-4358-944e-790f6bac1951))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3598,7 +3598,7 @@
     (pin "3" (uuid b08d3a7f-ee1e-4ac1-b43b-826f864a989d))
     (pin "4" (uuid 89fc0991-f225-49e8-a756-cd1881d0693d))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "SW_Reset1") (unit 1)
         )
@@ -3609,7 +3609,7 @@
   (symbol (lib_id "power:GND") (at 24.13 41.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615b2ae5)
-    (property "Reference" "#PWR02" (at 17.78 41.91 0)
+    (property "Reference" "#PWR03" (at 17.78 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 20.8788 42.037 90)
@@ -3623,9 +3623,9 @@
     )
     (pin "1" (uuid 2bf395ab-44e1-442f-8cc3-ce5b2994af77))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3634,7 +3634,7 @@
   (symbol (lib_id "Device:C_Small") (at 231.14 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615b5f31)
-    (property "Reference" "C6" (at 225.3234 87.63 90)
+    (property "Reference" "C3" (at 225.3234 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 227.6348 87.63 90)
@@ -3649,9 +3649,9 @@
     (pin "1" (uuid 3fec39b5-09b3-4ae4-b3a0-7a92c00722fe))
     (pin "2" (uuid 6e1c19a7-df4e-4aae-b321-4bce1d6c0845))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "C6") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3660,7 +3660,7 @@
   (symbol (lib_id "power:GND") (at 231.14 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615bd53b)
-    (property "Reference" "#PWR031" (at 231.14 96.52 0)
+    (property "Reference" "#PWR014" (at 231.14 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.267 94.5642 0)
@@ -3674,9 +3674,9 @@
     )
     (pin "1" (uuid 21217ee6-3234-4777-a1c3-f474e60d0bac))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3685,7 +3685,7 @@
   (symbol (lib_id "power:VCC") (at 238.76 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000615f0a46)
-    (property "Reference" "#PWR033" (at 238.76 55.88 0)
+    (property "Reference" "#PWR05" (at 238.76 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 238.76 48.26 0)
@@ -3699,9 +3699,9 @@
     )
     (pin "1" (uuid 58901d3c-983a-4aaa-aaf6-d3db52d0efa8))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3710,7 +3710,7 @@
   (symbol (lib_id "power:GND") (at 251.46 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000616e2c5c)
-    (property "Reference" "#PWR040" (at 257.81 113.03 0)
+    (property "Reference" "#PWR021" (at 257.81 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.8542 112.903 0)
@@ -3724,9 +3724,9 @@
     )
     (pin "1" (uuid fc7f7087-70f9-4f6e-a26c-9cdb26486a44))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3735,7 +3735,7 @@
   (symbol (lib_id "power:VCC") (at 223.52 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000616e3a54)
-    (property "Reference" "#PWR030" (at 227.33 113.03 0)
+    (property "Reference" "#PWR020" (at 227.33 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 219.1258 112.649 0)
@@ -3749,9 +3749,9 @@
     )
     (pin "1" (uuid 0683dce5-f0c7-4b17-834f-c8000306553a))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3760,7 +3760,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 39.37 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061ceeaab)
-    (property "Reference" "SW2" (at 39.37 15.621 0)
+    (property "Reference" "SW1" (at 39.37 15.621 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Boot" (at 39.37 17.9324 0)
@@ -3775,9 +3775,9 @@
     (pin "1" (uuid c27f2210-fde6-4e7e-8dca-4f8e143c9a39))
     (pin "2" (uuid 25ca9f66-b0f2-4b03-a266-b9b11f3eead6))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "SW2") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -3786,7 +3786,7 @@
   (symbol (lib_id "power:GND") (at 44.45 21.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061cef3fa)
-    (property "Reference" "#PWR09" (at 50.8 21.59 0)
+    (property "Reference" "#PWR01" (at 50.8 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 47.7012 21.463 90)
@@ -3800,9 +3800,9 @@
     )
     (pin "1" (uuid 1ab7224c-ffaa-4c74-819b-94253ce85cca))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3811,7 +3811,7 @@
   (symbol (lib_id "power:VCC") (at 181.61 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07d9424b-000a-4446-9c25-38aaa165bac5)
-    (property "Reference" "#PWR022" (at 185.42 147.32 0)
+    (property "Reference" "#PWR028" (at 185.42 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 177.8 147.3199 90)
@@ -3825,9 +3825,9 @@
     )
     (pin "1" (uuid 41376b14-aed6-4425-91ba-7789ecc3b0e0))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -3836,7 +3836,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 154.94 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08c46739-a91b-47f5-ac5e-76d603a5fc48)
-    (property "Reference" "#PWR046" (at 154.94 173.99 0)
+    (property "Reference" "#PWR034" (at 154.94 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 172.72 0)
@@ -3850,9 +3850,9 @@
     )
     (pin "1" (uuid 025488d0-9041-4551-889e-be24a78a11bb))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -3861,7 +3861,7 @@
   (symbol (lib_id "Device:LED") (at 148.59 173.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c0acfa5-5bfd-4871-8677-9231a324d04d)
-    (property "Reference" "D5" (at 146.05 173.99 0)
+    (property "Reference" "D8" (at 146.05 173.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 146.05 177.8 0)
@@ -3876,9 +3876,9 @@
     (pin "1" (uuid 28581d4f-70cc-4735-a374-1fce911fddd8))
     (pin "2" (uuid af2d32ec-6f26-4e95-afac-26b765ec0863))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "D5") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -3887,7 +3887,7 @@
   (symbol (lib_id "Device:LED") (at 140.97 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2461b8d8-6144-423e-9232-ec70692fe2a9)
-    (property "Reference" "D7" (at 138.43 179.07 0)
+    (property "Reference" "D9" (at 138.43 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 138.43 182.88 0)
@@ -3902,9 +3902,9 @@
     (pin "1" (uuid 1fbd71fa-3688-41be-b695-d1df64e1a8b7))
     (pin "2" (uuid f7bdd8d2-1077-4b1a-b986-ef51ae1d7785))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "D7") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -3913,7 +3913,7 @@
   (symbol (lib_id "power:GND") (at 231.14 148.59 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25006e83-a1dd-4e30-b463-086ddc7fc60e)
-    (property "Reference" "#PWR032" (at 224.79 148.59 0)
+    (property "Reference" "#PWR030" (at 224.79 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 227.33 148.5899 90)
@@ -3927,9 +3927,9 @@
     )
     (pin "1" (uuid c2e2863e-f216-4a75-858e-11751fd5a1d9))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -3938,7 +3938,7 @@
   (symbol (lib_id "power:+BATT") (at 26.67 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cd80b46-b45b-474a-bf23-1878613704c5)
-    (property "Reference" "#PWR03" (at 26.67 83.82 0)
+    (property "Reference" "#PWR010" (at 26.67 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 26.67 76.4342 0)
@@ -3952,9 +3952,9 @@
     )
     (pin "1" (uuid a1e5cd45-f147-4467-8b30-4145aed8eb6c))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4017,7 +4017,7 @@
     (pin "8" (uuid a19b1794-c897-4967-ab0d-4c0806ee96c5))
     (pin "9" (uuid 2c8d6924-0dc4-48ac-9c5b-cb8f4a291316))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "U2") (unit 1)
         )
@@ -4043,7 +4043,7 @@
     (pin "1" (uuid 7ed39501-b40c-42b9-8350-df2afb7b7529))
     (pin "2" (uuid 9c9c8f1d-d4f0-41da-a5c7-3d8d086b2332))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "R3") (unit 1)
         )
@@ -4071,7 +4071,7 @@
     (pin "3" (uuid aa4a277a-490b-44d8-9b24-bcd727a1cb83))
     (pin "4" (uuid cd9797ae-a421-4480-8bff-6ce09a4b6296))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "OLED1") (unit 1)
         )
@@ -4082,7 +4082,7 @@
   (symbol (lib_id "power:VCC") (at 119.38 186.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fe4b06e-50ca-49e3-bec4-7c1018015de4)
-    (property "Reference" "#PWR020" (at 119.38 182.88 0)
+    (property "Reference" "#PWR040" (at 119.38 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 119.38 191.77 0)
@@ -4096,9 +4096,9 @@
     )
     (pin "1" (uuid bb47f3c4-e20d-4206-8053-a401d9b3fd5d))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -4107,7 +4107,7 @@
   (symbol (lib_id "LED:WS2812B") (at 73.66 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 409bde88-d046-4e38-8107-66223d05257a)
-    (property "Reference" "D6" (at 85.09 154.4193 0)
+    (property "Reference" "D3" (at 85.09 154.4193 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "WS2812B" (at 85.09 156.9593 0)
@@ -4124,9 +4124,9 @@
     (pin "3" (uuid 9e53b031-9ca1-4b0b-9387-4376a2876848))
     (pin "4" (uuid 4a0f2aaa-4abb-43b5-9a32-2072ceb44a24))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "D6") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -4150,7 +4150,7 @@
     (pin "1" (uuid 168ebb25-302a-410e-b88e-e28202291756))
     (pin "2" (uuid 791b08d0-6b97-4c4c-bf06-c52570b19fa3))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "SW7") (unit 1)
         )
@@ -4182,7 +4182,7 @@
     (pin "7" (uuid 2236b126-c6e6-456e-80df-a2b59b94c36a))
     (pin "8" (uuid d0b12c7e-35ad-4954-b4a6-4c7b323bdd55))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "RN1") (unit 1)
         )
@@ -4208,7 +4208,7 @@
     (pin "1" (uuid 746be2dd-3384-4394-a6de-39b11bd388e6))
     (pin "2" (uuid f7f6bf6e-70dc-4a8a-ad3b-1f84640f06ee))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "SW3") (unit 1)
         )
@@ -4219,7 +4219,7 @@
   (symbol (lib_id "power:VBUS") (at 49.53 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a137321-404e-4b1d-9841-2a0ceaf573d1)
-    (property "Reference" "#PWR011" (at 49.53 92.71 0)
+    (property "Reference" "#PWR013" (at 49.53 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 49.911 85.6488 90)
@@ -4233,9 +4233,9 @@
     )
     (pin "1" (uuid 18990624-e916-4c4d-89f5-f32086122a2d))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -4244,7 +4244,7 @@
   (symbol (lib_id "power:GND") (at 49.53 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5cea6291-d25e-439f-828c-7b3452207a9a)
-    (property "Reference" "#PWR012" (at 49.53 125.73 0)
+    (property "Reference" "#PWR022" (at 49.53 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.657 123.7742 0)
@@ -4258,9 +4258,9 @@
     )
     (pin "1" (uuid 88a0aca7-4e17-41d3-b5a1-484253b5f7e6))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4269,7 +4269,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 21.59 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 609b81ac-e9ce-4067-8c01-c64121dc6f63)
-    (property "Reference" "SW1" (at 21.59 91.059 0)
+    (property "Reference" "SW2" (at 21.59 91.059 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPDT" (at 21.59 88.7476 0)
@@ -4285,9 +4285,9 @@
     (pin "2" (uuid 8ad6d858-d96f-4852-bf39-9114929cf72d))
     (pin "3" (uuid 25aea8c1-ab2c-43d1-a282-e3cf8cc41866))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "SW1") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -4296,7 +4296,7 @@
   (symbol (lib_id "power:VBUS") (at 21.59 180.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 619faaf4-08b2-4d8c-b94d-c2b25c8d33d8)
-    (property "Reference" "#PWR04" (at 25.4 180.34 0)
+    (property "Reference" "#PWR037" (at 25.4 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 20.32 176.53 90)
@@ -4310,9 +4310,9 @@
     )
     (pin "1" (uuid aa27e81b-cdd2-4c1f-86ee-7a58e583c504))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -4321,7 +4321,7 @@
   (symbol (lib_id "power:GND") (at 214.63 163.83 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e3814c9-8212-499f-af30-14e76bc64808)
-    (property "Reference" "#PWR028" (at 208.28 163.83 0)
+    (property "Reference" "#PWR032" (at 208.28 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 163.8299 90)
@@ -4335,9 +4335,9 @@
     )
     (pin "1" (uuid 12928f6c-2450-414d-988b-ecfd894ca44d))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -4346,7 +4346,7 @@
   (symbol (lib_id "power:GND") (at 38.1 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7834b807-be9d-4546-92cb-f2ce15f5e7c5)
-    (property "Reference" "#PWR08" (at 38.1 54.61 0)
+    (property "Reference" "#PWR04" (at 38.1 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.227 52.6542 0)
@@ -4360,9 +4360,9 @@
     )
     (pin "1" (uuid 175fd750-971f-4167-9430-97ae9b20f419))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4371,7 +4371,7 @@
   (symbol (lib_id "power:GND") (at 22.86 168.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78fa949c-53b7-47de-9984-f03e4c08305c)
-    (property "Reference" "#PWR013" (at 16.51 168.91 0)
+    (property "Reference" "#PWR035" (at 16.51 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 19.05 168.9099 90)
@@ -4385,9 +4385,9 @@
     )
     (pin "1" (uuid fea43e76-1951-44d2-9b7c-02645eaa53dd))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -4396,7 +4396,7 @@
   (symbol (lib_id "power:GND") (at 16.51 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7912e1ee-6541-447a-959b-a27dba4b5392)
-    (property "Reference" "#PWR01" (at 16.51 129.54 0)
+    (property "Reference" "#PWR023" (at 16.51 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 16.637 127.5842 0)
@@ -4410,9 +4410,9 @@
     )
     (pin "1" (uuid 95ededdf-4d9d-4666-a28c-deb748d45a35))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -4436,7 +4436,7 @@
     (pin "1" (uuid 9cbba921-f461-4ba0-93ff-cea035de23b3))
     (pin "2" (uuid a6c8995d-1e0d-4e12-adc7-0962fda1970a))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "SW5") (unit 1)
         )
@@ -4447,7 +4447,7 @@
   (symbol (lib_id "power:GND") (at 245.11 132.08 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87d48364-3ad3-4e3b-9d16-422eae52d77a)
-    (property "Reference" "#PWR036" (at 238.76 132.08 0)
+    (property "Reference" "#PWR027" (at 238.76 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 132.0799 90)
@@ -4461,9 +4461,9 @@
     )
     (pin "1" (uuid f970c232-ac85-4f83-a22e-b1f5f0045b69))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4472,7 +4472,7 @@
   (symbol (lib_id "Device:LED") (at 133.35 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8912877c-7b6f-4d9d-a952-0fe8f23995e4)
-    (property "Reference" "D8" (at 130.81 179.07 0)
+    (property "Reference" "D6" (at 130.81 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 130.81 182.88 0)
@@ -4487,9 +4487,9 @@
     (pin "1" (uuid 02252c44-aa55-4864-a38f-bffccd050d9e))
     (pin "2" (uuid 6c115c81-0d71-4344-b52b-926b9c758694))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "D8") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -4513,7 +4513,7 @@
     (pin "1" (uuid 54215926-900f-4f96-9a2e-32bb747cc246))
     (pin "2" (uuid 3f6bb31f-ec71-48b8-9e2d-84270781fd20))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "C1") (unit 1)
         )
@@ -4539,7 +4539,7 @@
     (pin "1" (uuid cb59d5be-8a11-422c-baaf-6858308e222d))
     (pin "2" (uuid 5ea9e521-0a86-4e43-87a7-b19742e25527))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "F1") (unit 1)
         )
@@ -4550,7 +4550,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Female") (at 27.94 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93104d3a-bd3a-48eb-af3c-8a5b5624bc06)
-    (property "Reference" "J5" (at 29.21 168.9099 0)
+    (property "Reference" "J3" (at 29.21 168.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Reset Jumper" (at 29.21 171.4499 0)
@@ -4565,9 +4565,9 @@
     (pin "1" (uuid 047afaeb-6cad-4b4a-82cf-5f0629345247))
     (pin "2" (uuid 8c0df25c-e638-4509-b0f4-ca10f9bab7c6))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "J5") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -4576,7 +4576,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 250.19 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d54cfd5-9025-4a5c-adb3-55a52e1ad292)
-    (property "Reference" "SW6" (at 250.19 124.46 0)
+    (property "Reference" "SW4" (at 250.19 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Right" (at 250.19 127 0)
@@ -4591,9 +4591,9 @@
     (pin "1" (uuid d1aaad64-b7c2-4f52-af55-c8399a6b283e))
     (pin "2" (uuid bac44369-77d3-4544-b97c-c6402a20e9f4))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "SW6") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -4602,7 +4602,7 @@
   (symbol (lib_id "power:GND") (at 181.61 149.86 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0158b98-dedb-4fb6-8373-da7d810d9e7e)
-    (property "Reference" "#PWR023" (at 175.26 149.86 0)
+    (property "Reference" "#PWR031" (at 175.26 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 149.8599 90)
@@ -4616,9 +4616,9 @@
     )
     (pin "1" (uuid ef6cb9a3-dc4a-4b68-904e-a521f34c6f0d))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -4627,7 +4627,7 @@
   (symbol (lib_id "Battery_Management:LTC4054ES5-4.2") (at 49.53 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5bea4e7-e48c-4eaa-aa5c-96a8d246f975)
-    (property "Reference" "U1" (at 60.8076 108.0516 0)
+    (property "Reference" "U4" (at 60.8076 108.0516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LTC4054" (at 60.8076 110.363 0)
@@ -4645,9 +4645,9 @@
     (pin "4" (uuid aeba8fdd-12a8-42c0-baec-4a9c63e4f811))
     (pin "5" (uuid cd016118-35f5-4233-9c5e-d7c51499505d))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "U1") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -4656,7 +4656,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 35.56 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9ba43f0-2b02-4610-9cb0-4955109c2a39)
-    (property "Reference" "R2" (at 37.2872 115.6716 0)
+    (property "Reference" "R4" (at 37.2872 115.6716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 37.2872 117.983 0)
@@ -4671,9 +4671,9 @@
     (pin "1" (uuid 258b1a27-e6d4-454c-926a-a1963d061b55))
     (pin "2" (uuid 9c769516-1aa1-490d-bde2-31e2cacc86fa))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4682,7 +4682,7 @@
   (symbol (lib_id "power:GND") (at 21.59 182.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2c39b6b-7cfc-4a24-b7ab-01400b79e997)
-    (property "Reference" "#PWR05" (at 15.24 182.88 0)
+    (property "Reference" "#PWR038" (at 15.24 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 17.78 182.8799 90)
@@ -4696,9 +4696,9 @@
     )
     (pin "1" (uuid dfeab3d8-6ed7-4b46-bf4f-fbae132d145e))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -4707,7 +4707,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 138.43 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba8b1a70-076a-4c02-9c7b-c706eb282231)
-    (property "Reference" "#PWR045" (at 138.43 201.93 0)
+    (property "Reference" "#PWR042" (at 138.43 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 200.66 0)
@@ -4721,9 +4721,9 @@
     )
     (pin "1" (uuid 20cbe8a5-2514-4ca4-b688-ae7807811caa))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -4732,7 +4732,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 219.71 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd6f3abc-11b3-4e18-b757-9b0343065a06)
-    (property "Reference" "SW4" (at 219.71 156.21 0)
+    (property "Reference" "SW6" (at 219.71 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Up" (at 219.71 158.75 0)
@@ -4747,9 +4747,9 @@
     (pin "1" (uuid 815d0455-759b-44c5-9114-a78c90172ac6))
     (pin "2" (uuid ce75089d-8d45-4a9d-9296-ca104fc7a804))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "SW4") (unit 1)
+          (reference "SW6") (unit 1)
         )
       )
     )
@@ -4777,7 +4777,7 @@
     (pin "5" (uuid 2d1e4652-6845-4420-98ad-54735779194e))
     (pin "6" (uuid b912a882-cb1e-4be4-a82a-8dec3b2b33bb))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "X1") (unit 1)
         )
@@ -4788,7 +4788,7 @@
   (symbol (lib_id "Device:C_Small") (at 58.42 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c36c5c94-1e3f-4ad2-9da6-073fba55fc27)
-    (property "Reference" "C2" (at 60.7568 90.2716 0)
+    (property "Reference" "C5" (at 60.7568 90.2716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 60.7568 92.583 0)
@@ -4803,9 +4803,9 @@
     (pin "1" (uuid b3d10f22-180e-4eb0-a723-549597ec81eb))
     (pin "2" (uuid 4c015361-135b-405e-aed1-e3d5cdbd9b28))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "C2") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4814,7 +4814,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Female") (at 36.83 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c94a535e-86f4-41f9-a772-2049951f5df9)
-    (property "Reference" "J4" (at 38.1 146.0499 0)
+    (property "Reference" "J1" (at 38.1 146.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "UART" (at 38.1 148.5899 0)
@@ -4829,9 +4829,9 @@
     (pin "1" (uuid d52d2550-587f-4161-9ab5-3720a85c1ccf))
     (pin "2" (uuid 30aab464-7ab6-4f14-abc6-c27c79c299cc))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "J4") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -4840,7 +4840,7 @@
   (symbol (lib_id "power:+BATT") (at 223.52 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca181ac4-51a4-4693-8610-3d645bbf5173)
-    (property "Reference" "#PWR029" (at 223.52 85.09 0)
+    (property "Reference" "#PWR011" (at 223.52 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 223.52 77.7042 0)
@@ -4854,9 +4854,9 @@
     )
     (pin "1" (uuid 4337575f-ceaa-42bd-b0c2-c6d57ab47ecd))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -4865,7 +4865,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Female") (at 26.67 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf9d5eae-518a-43e5-9203-101c2a73fd57)
-    (property "Reference" "J1" (at 27.94 180.3399 0)
+    (property "Reference" "J4" (at 27.94 180.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5v GND" (at 27.94 182.8799 0)
@@ -4880,9 +4880,9 @@
     (pin "1" (uuid a7c74c98-9567-496c-bb00-88338ab8ac80))
     (pin "2" (uuid eb39346f-6471-4f27-9a82-150879e61c4b))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "J1") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -4891,7 +4891,7 @@
   (symbol (lib_id "Device:LED") (at 125.73 172.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d514f12f-80f7-4f70-a668-bac76edaf645)
-    (property "Reference" "D10" (at 123.19 172.72 0)
+    (property "Reference" "D5" (at 123.19 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 123.19 176.53 0)
@@ -4906,9 +4906,9 @@
     (pin "1" (uuid 94ba1adc-c74c-4188-925d-6d84b1eee88a))
     (pin "2" (uuid f73ab6f0-3254-4ef5-b415-5024500691af))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "D10") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -4932,7 +4932,7 @@
     (pin "1" (uuid 79e67979-392b-4a13-8c48-e16125043675))
     (pin "2" (uuid 133ad0f2-03a1-4c50-a820-5fba63ef5e40))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "BT1") (unit 1)
         )
@@ -4943,7 +4943,7 @@
   (symbol (lib_id "Device:LED") (at 36.83 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dcbc1482-c8b2-4902-92a1-aff999083404)
-    (property "Reference" "D1" (at 31.3182 92.8878 0)
+    (property "Reference" "D2" (at 31.3182 92.8878 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Charging" (at 33.6296 92.8878 0)
@@ -4958,9 +4958,9 @@
     (pin "1" (uuid a2ed0887-25e1-4d45-af78-da045fc08f16))
     (pin "2" (uuid fe57f0c9-8ec2-49b3-99fe-aa1cb077edd3))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -4990,7 +4990,7 @@
     (pin "7" (uuid 70ecc11c-61a1-47c0-8f52-da181b0b2254))
     (pin "8" (uuid a55ea9d7-ef8f-4619-8ab7-9b224db217b5))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
           (reference "RN2") (unit 1)
         )
@@ -5001,7 +5001,7 @@
   (symbol (lib_id "power:GND") (at 247.65 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e01c5223-5251-45f5-bae8-6b15ea6c685b)
-    (property "Reference" "#PWR038" (at 247.65 99.06 0)
+    (property "Reference" "#PWR017" (at 247.65 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.777 97.1042 0)
@@ -5015,9 +5015,9 @@
     )
     (pin "1" (uuid 93e29409-0290-4081-9500-dcd1e10f17f4))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -5026,7 +5026,7 @@
   (symbol (lib_id "Device:C_Polarized_Small_US") (at 247.65 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0379c20-abb2-43bc-9a5d-482f4af8e76a)
-    (property "Reference" "C7" (at 249.9614 87.6335 0)
+    (property "Reference" "C4" (at 249.9614 87.6335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 249.9614 90.1704 0)
@@ -5047,9 +5047,9 @@
     (pin "1" (uuid 7347c849-6872-4a01-a8c2-65e2d7d6c129))
     (pin "2" (uuid 62125356-e028-44ab-917a-15be9a85d4e4))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "C7") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -5058,7 +5058,7 @@
   (symbol (lib_id "power:GND") (at 74.93 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4b395d6-2da3-4c0f-84e3-de749233e67b)
-    (property "Reference" "#PWR024" (at 81.28 168.91 0)
+    (property "Reference" "#PWR036" (at 81.28 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 168.9099 90)
@@ -5072,9 +5072,9 @@
     )
     (pin "1" (uuid 45245cad-a915-427a-9529-3e2a5a730ea6))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -5083,7 +5083,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Female") (at 27.94 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e518a3a8-4cfe-44c5-bd84-96ca2b357036)
-    (property "Reference" "J6" (at 29.21 194.3099 0)
+    (property "Reference" "J5" (at 29.21 194.3099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Boot Jumper" (at 29.21 196.8499 0)
@@ -5098,9 +5098,9 @@
     (pin "1" (uuid 99815137-6b97-47ba-acd8-07bc0cec201e))
     (pin "2" (uuid 84360ab9-16a0-4710-9c2d-adf7f039d8ae))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "J6") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -5109,7 +5109,7 @@
   (symbol (lib_id "power:VCC") (at 73.66 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8dcb517-e3e9-4294-b39a-86baf12f7bfe)
-    (property "Reference" "#PWR021" (at 73.66 152.4 0)
+    (property "Reference" "#PWR029" (at 73.66 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 73.66 143.51 0)
@@ -5123,9 +5123,9 @@
     )
     (pin "1" (uuid f9a4b288-e2a4-4140-8054-e390a6ea7944))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -5134,7 +5134,7 @@
   (symbol (lib_id "power:GND") (at 214.63 132.08 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e918e9bd-196a-4b6f-bc9e-8400f33531b6)
-    (property "Reference" "#PWR027" (at 208.28 132.08 0)
+    (property "Reference" "#PWR026" (at 208.28 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 132.0799 90)
@@ -5148,9 +5148,9 @@
     )
     (pin "1" (uuid b7d9b5ca-4ac0-4bd8-b1e1-fdf1d7d8ace3))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -5159,7 +5159,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 154.94 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee2078cc-40f8-406e-a0c1-8ea1d85d4cc9)
-    (property "Reference" "R11" (at 156.6672 153.7716 0)
+    (property "Reference" "R5" (at 156.6672 153.7716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 156.6672 156.083 0)
@@ -5174,9 +5174,9 @@
     (pin "1" (uuid fd787ab2-0b7f-4fd7-a443-c0c3e2a1941a))
     (pin "2" (uuid 1bbef746-75a1-4ddc-bcd9-83ce83b107d1))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "R11") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -5185,7 +5185,7 @@
   (symbol (lib_id "power:GND") (at 58.42 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee30d28f-3345-4f29-a84f-0a1cebf39e4c)
-    (property "Reference" "#PWR015" (at 58.42 101.6 0)
+    (property "Reference" "#PWR018" (at 58.42 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.547 99.6442 0)
@@ -5199,9 +5199,9 @@
     )
     (pin "1" (uuid edb5ecb1-5387-4143-8523-9332aae24dc5))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -5210,7 +5210,7 @@
   (symbol (lib_id "Device:LED") (at 154.94 162.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f23510dc-9b3d-4be6-8baa-66f6a4e490a4)
-    (property "Reference" "D11" (at 149.4282 162.7378 0)
+    (property "Reference" "D4" (at 149.4282 162.7378 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 151.7396 162.7378 0)
@@ -5225,9 +5225,9 @@
     (pin "1" (uuid 3084b60e-dd60-4cde-bf91-38bc1ed4ff9b))
     (pin "2" (uuid f91a16aa-1ed3-4943-b006-d663f8577ada))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "D11") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -5236,7 +5236,7 @@
   (symbol (lib_id "power:GND") (at 245.11 163.83 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f30173e0-a00c-4c2a-9253-a263e915425a)
-    (property "Reference" "#PWR037" (at 238.76 163.83 0)
+    (property "Reference" "#PWR033" (at 238.76 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 163.8299 90)
@@ -5250,9 +5250,9 @@
     )
     (pin "1" (uuid 1fbdf4de-b9c9-471f-ae4c-8b85395b60fa))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -5261,7 +5261,7 @@
   (symbol (lib_id "power:GND") (at 22.86 194.31 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa92db6f-4c3d-475a-859b-be217bb8c619)
-    (property "Reference" "#PWR014" (at 16.51 194.31 0)
+    (property "Reference" "#PWR041" (at 16.51 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 19.05 194.3099 90)
@@ -5275,9 +5275,9 @@
     )
     (pin "1" (uuid 82f03551-0e26-4759-b236-f0692e292678))
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -5294,7 +5294,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "OzSec Badge"
+      (project "BSidesKC23"
         (path "/76a22395-5d2d-4f66-8191-432f65fdc4ac" (page "2"))
       )
     )

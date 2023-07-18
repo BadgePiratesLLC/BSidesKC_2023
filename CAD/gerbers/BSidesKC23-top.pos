@@ -1,0 +1,31 @@
+### Footprint positions - created on Mon Jul 17 20:56:56 2023 ###
+### Printed by KiCad version 7.0.2
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val            Package                                                    PosX       PosY       Rot  Side
+D4        LED            LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask_Only   170.6750   -44.9000  180.0000  top
+D5        LED            LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask_Only   179.7750   -44.6500  180.0000  top
+D6        LED            LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask_Only   188.3000   -44.7000  180.0000  top
+D7        LED            LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask_Only   170.6390   -53.5750  180.0000  top
+D8        LED            LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask_Only   179.4250   -53.6500  180.0000  top
+D9        LED            LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask_Only   188.1750   -53.6250  180.0000  top
+D10       LED            LED_RGB_1210                                           188.7500   -97.9500    0.0000  top
+G***      LOGO           LOGO                                                   132.7414   -89.0975    0.0000  top
+G***      LOGO           LOGO                                                   132.7410   -89.1115    0.0000  top
+G***      LOGO           LOGO                                                   132.7410   -89.1115    0.0000  top
+G***      LOGO           LOGO                                                    86.6450     2.3355    0.0000  top
+G***      NG_BSilk_B.Cu  NG_B.Cu                                                185.3509   -82.2270    0.0000  top
+G***      LOGO           LOGO                                                   153.4042  -112.7254    0.0000  top
+G***      fg             FG_B.Cu                                                159.7486  -133.0219    0.0000  top
+G***      LOGO           LOGO                                                   153.4042  -112.7254    0.0000  top
+G***      BP_Logo        BPSkull_Distressed_B.SILK                              196.3750   -95.0250    0.0000  top
+G***      LOGO           BadgePiratesURL_B.SLK                                  200.4355   -76.6779   90.0000  top
+G***      LOGO           LOGO                                                   153.4042  -112.7254    0.0000  top
+G***      LOGO           LOGO                                                   153.4042  -112.7254    0.0000  top
+SW3       SW_Left        Switch_Tactile_SMD_B3U-1000P-BPVersion                 167.2250   -71.0000    0.0000  top
+SW4       SW_Right       Switch_Tactile_SMD_B3U-1000P-BPVersion                 191.0750   -70.7250    0.0000  top
+SW5       SW_Center      Switch_Tactile_SMD_B3U-1000P-BPVersion                 178.8750   -92.2500    0.0000  top
+SW6       SW_Up          Switch_Tactile_SMD_B3U-1000P-BPVersion                 174.7250   -65.7250    0.0000  top
+SW7       SW_Down        Switch_Tactile_SMD_B3U-1000P-BPVersion                 183.4500   -65.5250    0.0000  top
+X1        sao_v169bis    Badgelife-SAOv169-SAO_Side_B.SLK                       195.0098   -31.4516    0.0000  top
+## End
