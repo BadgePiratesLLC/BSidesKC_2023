@@ -56,7 +56,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|153856867|143317239|5ef33451-f3ae-4601-aadb-936c2ef6d527|c4d093ad-02a0-4e92-8af5-05f39ecce0e0",
+        "copper_edge_clearance|206287000|141951500|41ca5f3b-5558-43ca-94f1-c388ee0fd624|cce71d6b-f690-4381-bb33-58ede8a7c11e"
+      ],
       "meta": {
         "version": 2
       },
