@@ -1,3 +1,4 @@
 
 *.zip
 CAD/_autosave-badge.kicad_pcb
+*.lck
