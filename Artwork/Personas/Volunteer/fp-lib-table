@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "BsidesKC-Badge-Final-Volunteer")(type KiCad)(uri "$(KIPRJMOD)/BsidesKC-Badge-Final-Volunteer.pretty")(options "")(descr ""))
+)
