@@ -1,4 +1,4 @@
-21820012518746033
+21831861550700531
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -21,7 +21,21 @@ B.Cu_g4800
 0
 0
 BSidesKC
+B.Cu_g10778
+
+
+0
+0
+0
+BSidesKC
 B.Mask_g4802
+
+
+0
+0
+0
+BSidesKC
+B.Mask_g10780
 
 
 0
@@ -35,7 +49,28 @@ B.SilkS_g4804
 0
 0
 BSidesKC
+B.SilkS_g10782
+
+
+0
+0
+0
+BSidesKC
 Dwgs.User_g4812
+
+
+0
+0
+0
+BSidesKC
+Dwgs.User_g10791
+
+
+0
+0
+0
+BSidesKC
+F.CU_VillageText
 
 
 0
@@ -49,7 +84,21 @@ F.Cu_g4806
 0
 0
 BSidesKC
+F.Cu_g10784
+
+
+0
+0
+0
+BSidesKC
 F.Mask_g4808
+
+
+0
+0
+0
+BSidesKC
+F.Mask_g10786
 
 
 0
@@ -63,7 +112,7 @@ F.SilkS_g4810
 0
 0
 BSidesKC
-JustWords_FC
+F.SilkS_g10789
 
 
 0

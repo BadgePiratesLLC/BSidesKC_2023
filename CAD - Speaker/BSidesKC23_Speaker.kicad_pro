@@ -405,11 +405,15 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "BSidesKC",
+      "BadgePirates",
+      "BadgePiratesLogos"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BSidesKC23.kicad_pro",
+    "filename": "BSidesKC23_Speaker.kicad_pro",
     "version": 1
   },
   "net_settings": {
