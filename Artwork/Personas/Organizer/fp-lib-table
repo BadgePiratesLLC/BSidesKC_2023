@@ -1,4 +1,0 @@
-
-(fp_lib_table
-  (lib (name "BsidesKC-Badge-Final-Organizer")(type KiCad)(uri "$(KIPRJMOD)/BsidesKC-Badge-Final-Organizer.pretty")(options "")(descr ""))
-)
