@@ -1,0 +1,49 @@
+### Footprint positions - created on Sat Sep 16 10:10:38 2023 ###
+### Printed by KiCad version 7.0.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref      Val               Package                                                PosX       PosY       Rot  Side
+1/0        SW_SPDT           SW_SPDT_PCM12                                      118.8442  -167.1910  -120.0000  bottom
+BT1        Battery           Battery_-_14500                                     99.2450  -134.7550   90.0000  bottom
+C1         0.1uF             C_0805_2012Metric                                   83.2000   -75.9800    0.0000  bottom
+C2         0.1uF             C_0805_2012Metric                                  110.0500  -158.5000    0.0000  bottom
+C3         0.1uF             C_0805_2012Metric                                  113.6500  -158.4600  180.0000  bottom
+C4         100uF             CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder    88.5550  -155.0050  180.0000  bottom
+C5         1uF               C_0805_2012Metric                                   82.6125  -161.7100  180.0000  bottom
+C6         0.1uF             C_0805_2012Metric                                   79.0100   -75.9900  180.0000  bottom
+C7         22uF              C_0805_2012Metric                                   78.9700   -72.7300  180.0000  bottom
+C8         0.1uF             C_0805_2012Metric                                   87.1100  -174.9600  180.0000  bottom
+D1         Pwr               R_1206_3216Metric                                  108.5500  -176.3600    0.0000  bottom
+D2         Charging          LED_1206_3216Metric                                109.3300  -148.6100    0.0000  bottom
+D3         STATUS            LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm                 100.5050   -53.4300  180.0000  bottom
+D11        PESD              SOT-23                                              93.4700  -168.8975  -90.0000  bottom
+F1         Fuse              R_1206_3216Metric                                  109.3200  -144.6900    0.0000  bottom
+FID_3      fid_3             Fiducial_0.5mm_Mask1mm                              81.8900   -39.9600  180.0000  bottom
+J2         JTAG              PinHeader_1x04_P2.54mm_Vertical                     84.8700  -102.5800  -90.0000  bottom
+J6         USB               USB_C_Receptical-Jing                               99.9550  -174.7425  180.0000  bottom
+OLED1      OLED              PinHeader_1x04_P2.54mm_Vertical                     79.2050   -60.4850  180.0000  bottom
+R1         10k               R_1206_3216Metric                                   83.2200   -72.5100    0.0000  bottom
+R2         1k                R_1206_3216Metric                                  113.2800  -173.6700    0.0000  bottom
+R3         330               R_1206_3216Metric                                   89.4000  -166.4200  180.0000  bottom
+R4         2k                R_1206_3216Metric                                   82.5300  -158.3050  180.0000  bottom
+R5         1k                R_1206_3216Metric                                   91.8300   -56.9050    0.0000  bottom
+R6         0                 R_1206_3216Metric                                  107.3800  -173.9400  180.0000  bottom
+R8         5.1k              R_1206_3216Metric                                  100.6200  -170.0400    0.0000  bottom
+R10        5.1k              R_1206_3216Metric                                   83.1800  -166.2300  180.0000  bottom
+R12        1M                R_1206_3216Metric                                   83.4700  -170.6800  180.0000  bottom
+RN1        1k_Array          R_Array_Convex_4x0603                              113.4050  -104.0300    0.0000  bottom
+RN2        1k_Array          R_Array_Convex_4x0603                              116.8550   -67.3300    0.0000  bottom
+SW1        Boot              Switch_Tactile_SMD_B3U-1000P-BPVersion             102.9050   -45.0050  180.0000  bottom
+SW3        SW_Left           Switch_Tactile_SMD_B3U-1000P-BPVersion             118.9600   -79.9800  180.0000  bottom
+SW4        SW_Right          Switch_Tactile_SMD_B3U-1000P-BPVersion             104.5400   -80.0200  180.0000  bottom
+SW5        SW_Center         Switch_Tactile_SMD_B3U-1000P-BPVersion             111.9400   -80.0100  180.0000  bottom
+SW6        SW_Up             Switch_Tactile_SMD_B3U-1000P-BPVersion             111.8500   -75.7400  180.0000  bottom
+SW7        SW_Down           Switch_Tactile_SMD_B3U-1000P-BPVersion             112.0000   -84.2100  180.0000  bottom
+SW_Reset1  Reset             Switch_Tactile_SMD_B3U-1000P-BPVersion              95.7550   -44.9800  180.0000  bottom
+U1         CH340N            SOIC-8-1EP_W3.9mm                                  107.4050  -166.7100  180.0000  bottom
+U2         ESP32-S3-WROOM-1  ESP32-S3-WROOM-1                                    87.1150   -90.1800  -90.0000  bottom
+U3         TLV1117           SOT-223                                            117.6600  -152.0500  180.0000  bottom
+U4         LTC4054           LTC4054                                             88.6425  -162.7050  180.0000  bottom
+fid_1      Fid_1             Fiducial_0.5mm_Mask1mm                              91.2700  -178.3700  180.0000  bottom
+fid_2      fid_2             Fiducial_0.5mm_Mask1mm                             121.2300   -42.8700  180.0000  bottom
+## End

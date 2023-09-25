@@ -1,0 +1,26 @@
+### Footprint positions - created on Sat Sep 16 10:10:38 2023 ###
+### Printed by KiCad version 7.0.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val            Package                                                    PosX       PosY       Rot  Side
+D4        LED            LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask_Only    91.7050   -62.6300  180.0000  top
+D5        LED            LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask_Only   100.8050   -62.3800  180.0000  top
+D6        LED            LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask_Only   109.3300   -62.4300  180.0000  top
+D7        LED            LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask_Only    91.6690   -71.3050  180.0000  top
+D8        LED            LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask_Only   100.4550   -71.3800  180.0000  top
+D9        LED            LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask_Only   109.2050   -71.3550  180.0000  top
+D10       LED            LED_RGB_1210                                           109.7800  -115.6800    0.0000  top
+G***      NG_BSilk_B.Cu  NG_B.Cu                                                105.8709  -101.0170    0.0000  top
+G***      LOGO           F.Cu_g4806                                              53.6000  -106.7500    0.0000  top
+G***      LOGO           LOGO                                                    74.4342  -130.4554    0.0000  top
+G***      LOGO           F.Mask_g4808                                            53.5800  -106.7500    0.0000  top
+G***      LOGO           JustWords_FC                                            53.5703  -106.7223    0.0000  top
+G***      fg             FG_B.Cu                                                118.2586  -117.1769    0.0000  top
+G***      LOGO           LOGO                                                    74.4342  -130.4554    0.0000  top
+G***      BP_Logo        BPSkull_Distressed_B.SILK                              108.7546   -92.4688    0.0000  top
+G***      LOGO           BadgePiratesURL_B.SLK                                  121.5000   -90.5500   90.0000  top
+G***      LOGO           F.SilkS_g4810                                           53.5377  -106.7720    0.0000  top
+G***      LOGO           LOGO                                                    74.4342  -130.4554    0.0000  top
+G***      LOGO           LOGO                                                    74.4342  -130.4554    0.0000  top
+X1        sao_v169bis    Badgelife-SAOv169-SAO_Side_B.SLK                       116.0398   -49.1816    0.0000  top
+## End
