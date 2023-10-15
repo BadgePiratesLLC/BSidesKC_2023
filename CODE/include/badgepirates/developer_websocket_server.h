@@ -1,0 +1,1 @@
+// #define WS_URI "http://YourServer"
