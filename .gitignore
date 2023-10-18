@@ -1,3 +1,7 @@
 
 *.zip
 CAD/_autosave-badge.kicad_pcb
+.DS_Store
+CAD - BadgePirate/.DS_Store
+CAD - Organizer/.DS_Store
+.DS_Store
